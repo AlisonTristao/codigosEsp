@@ -1,0 +1,11 @@
+Fiz esse codigo para testar o envio de dados da esp32 para o celular por bluetooth usando uma task secundaria.
+
+o app em apk e uma foto do circuito estao ali.
+
+
+------------------------------
+
+
+conclusão: 
+
+não é possivel iniciar uma segunda task antes de conectar o celular com a esp, pois o pareamento bluetooth usa o segundo nucleo.
